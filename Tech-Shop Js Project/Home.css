@@ -169,18 +169,15 @@ body::selection {
 @media (max-width: 385px) {
   .navlogo1 {
     font-size: 1.5rem !important;
-    /* margin-right: 20px !important; */
-    /* padding-right: 10px !important; */
   }
 
   .user_set_small {
-    /* padding-left: 20px !important; */
     margin-right: -20px !important;
   }
 }
 
 .carousel-inner {
-  height: 100%; /* adjust height */
+  height: 100%; 
 }
 
 .carousel-item {
@@ -190,7 +187,7 @@ body::selection {
 }
 
 del {
-  opacity: 0.6; /* Adjust value for desired dullness */
+  opacity: 0.6; 
   margin: 0px 15px;
   color: #888;
 }
@@ -207,7 +204,7 @@ del {
 
 .carousel-indicators.custom-indicators {
   position: absolute;
-  bottom: -10rem; /* push below carousel */
+  bottom: -10rem; 
   left: 0;
   right: 0;
   display: flex;
@@ -235,13 +232,13 @@ del {
   z-index: 2;
 }
 .bg-watermark {
-  position: absolute; /* ✅ take it out of normal flow */
-  top: -15px; /* adjust to position vertically */
-  left: 0; /* adjust horizontally */
+  position: absolute; 
+  top: -15px; 
+  left: 0; 
   font-size: 16rem;
   opacity: 0.25;
   color: #555;
-  z-index: 1; /* now sits behind text but above background */
+  z-index: 1; 
   font-weight: bold;
   pointer-events: none;
   margin-left: 15px;
@@ -301,12 +298,7 @@ del {
 .carousel-item-custom:hover {
   transform: scale(1.2);
 }
-/* .carousel-item-custom p:hover {
-      transform: scale(1.2);
-    }
-    .carousel-item-custom h4:hover {
-      transform: scale(1.2);
-    } */
+
 
 /* Sizes */
 .carousel-item-custom:nth-child(1) img,
@@ -417,7 +409,6 @@ del {
 .feature-card {
   display: flex;
   align-items: center;
-  /* background-color:black; */
   color: white;
   padding: 10px 15px;
   border-radius: 6px;
