@@ -7,6 +7,9 @@ body {
   padding-top: 0.25rem !important;
   padding-bottom: 0.25rem !important;
   height: auto !important;
+  width: 1550px !important;
+  position: fixed !important;
+  z-index: 1000 !important;
 }
 .navlogo1 {
   font-family: "Oswald", sans-serif;
@@ -181,6 +184,7 @@ body::selection {
 }
 
 .carousel-item {
+  margin-top: 70px;
   background-color: #0e1111;
   color: white;
   height: auto;
@@ -233,12 +237,12 @@ del {
 }
 .bg-watermark {
   position: absolute; 
-  top: -15px; 
+  top: -45px !important; 
   left: 0; 
   font-size: 16rem;
   opacity: 0.25;
   color: #555;
-  z-index: 1; 
+  z-index: 0; 
   font-weight: bold;
   pointer-events: none;
   margin-left: 15px;
@@ -258,6 +262,7 @@ del {
   margin: 2% 0px;
 }
 #para1 {
+  margin-top: 150px !important;
   font-size: 1.3rem;
 }
 
