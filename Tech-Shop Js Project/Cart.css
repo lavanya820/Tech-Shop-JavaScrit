@@ -1,12 +1,8 @@
 
-body {
+body{
   padding-top: -40px !important;
   background-color: black;
   font-family: Arial, sans-serif;
-}
-body, html {
-  margin: 0;
-  padding: 0;
 }
 
 .navbar {
