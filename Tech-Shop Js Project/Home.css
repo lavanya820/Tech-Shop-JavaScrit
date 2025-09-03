@@ -495,6 +495,7 @@ h3{
   margin-top: 5rem;
 }
 .our-cntnr-margi {
+  background-color: #2e2c2c !important;
   margin: 4rem;
   margin-left: 10rem;
 }
@@ -531,7 +532,7 @@ h3{
   background-color: #464242;
 }
 footer {
-  background-color: #0e1111;
+  background-color: black;
   color: white;
   padding: 10px;
 }
@@ -556,7 +557,7 @@ footer {
   .dec5 {
     margin-left: -32px !important;
   }
-}
+}J
 
 #k1 {
   margin-right: 2.7rem;
@@ -656,17 +657,22 @@ footer {
   padding: 2px 6px;
 }
 
-/* our advantages */
-h4{
-  text-align: center;
-  color: white !important;
-}
-.advantages{
-  margin-top: 50px;
+/* .advantages{
+  background-color: #2e2c2c !important;
+} */
+ .advantages{
+  color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+}
+.heading{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  margin-bottom: 50px;
 }
 .advantages .advant{
   margin-top: 50px;
@@ -674,48 +680,13 @@ display: flex;
 }
 .advant i{
   margin: 15px 14px 10px 0px;
-  color: red;
+  color: red !important;
+  font-size: 35px;
 }
 .advant .add{
   margin-top: -15px;
-  font-size: 10px;
-}
-.advant .size{
   font-size: 15px;
 }
-
-/* footer */
-footer{
-  background-color: black;
-}
-.footer{
-  display: grid;
-  padding-top: 15px;
-  grid-template-columns: 30% 23% 24% 23%;
-}
-.footer p{
-  font-size: 18px;
-  margin-top: 10px;
-}
-.footer button{
-  background-color: red;
-  border: 1px solid red;
-  color: white;
-}
-.tech,.help{
-  margin-left: 20px;
-}
-.footer input{
-  border: 1px solid gray;
-  color: gray;
-}
-
-/* end */
-.end{
-  display: grid;
-  grid-template-columns: 80% 20%;
-  background-color: black;
-}
-.iframe i{
-  padding-left: 15%;
+.advant .size{
+  font-size: 22px;
 }
